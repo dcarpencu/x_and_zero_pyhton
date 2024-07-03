@@ -28,7 +28,7 @@ def check_game(index1, index2, index3):
 
 while (not isFinished):
     print()
-    pozitia = int(input(f'{player} turn, enter a number from 1-9:'))
+    pozitia = int(input(f'E randul lui {player}, alege un numar intre 1-9:'))
     print()
     arr[pozitia - 1] = player;
 
